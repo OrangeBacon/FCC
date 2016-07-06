@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+	<link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+	<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'>
+	<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+	<link rel='stylesheet' href='index.css'></link>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset='80'>
+    <nav class='navbar navbar-fixed-top'>
+      <div class='container'>
+        <div class='nav navbar-nav navbar-left'>
+          <li><a class='brand'><span class='logo'>-ScratchOs</span>  Web Design Portfolio</a></li>
+        </div>
+        <div class='collapse navbar-collapse nav navbar-nav navbar-right'>
+          <li class='active'><a href='#t1'>About</a></li>
+          <li><a href='#t2'>Portfolio</a></li>
+          <li><a href='#t3'>Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <article>
+      <section class='intro' id='t1'>
+        <div class='left'>
+          <p>My name is Will and this is my portfolio of work as a front-end web developer. I have experience working with HTML, CSS and JavaScript to produce responsive, interactive web pages.</p>
+          <p class='sep-right'>
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </p>
+        </div>
+        <div class='right'>
+          <img src='https://avatars2.githubusercontent.com/u/12380303?v=3&s=460'>
+        </div>
+      </section>
+      <section class='portfolio' id='t2'>
+        <h1>Portfolio</h1>
+        <p class='sep-center'>
+          <i class="fa fa-code" aria-hidden="true"></i>
+        </p>
+        <div class='row'>
+          <div class='col-md-6'><img class='img-responsive' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/Apple_II_Monitor.png'></div>
+          <div class='col-md-6'><img class='img-responsive' src='https://upload.wikimedia.org/wikipedia/commons/b/b7/Html-source-code.png'></div>
+        </div>
+        <div class='row'>
+          <div class='col-md-6'><img class='img-responsive' src='https://c2.staticflickr.com/4/3439/3272158919_0a26996ca2.jpg'></div>
+          <div class='col-md-6'><img class='img-responsive' src='https://pixabay.com/static/uploads/photo/2015/12/04/14/05/code-1076533_960_720.jpg'></div>
+        </div>
+      </section>
+      <section class='contact' id='t3'>
+        <h1>Contact</h1>
+        <p class='sep-center'>
+          <i class="fa fa-code" aria-hidden="true"></i>
+        </p>
+        <div class='left'>
+          <div class="input-group">
+            <input id='f1' class="form-control"placeholder='name' name='name' onkeyup="this.setAttribute('value', this.value);" type='text' value=''>
+            <label for='f1'>Name</label>
+          </div>
+          <div class="input-group">
+            <input id='f2'class="form-control"placeholder='email' name='email' onkeyup="this.setAttribute('value', this.value);"  type='text' value=''>
+            <label for='f2'>Email</label>
+          </div>
+          <div class="input-group">
+            <textarea id='f3'class="form-control" placeholder='message' name='message' onkeyup="this.setAttribute('value', this.value);" value=''></textarea>
+            <label for='f3'>Message</label>
+          </div>
+        </div>
+        <div class='right'>
+          <p>Please contact me to talk about anything you want, whether to do with programming, engineering or anything else.</p>
+        </div>
+      </section>
+    </article>
+    <footer>
+      <section class='about'>
+        <div class='left'>Made with &lt3 by -ScratchOs</div>
+        <div class='right'>
+          <a href='https://github.com/ScratchOs' class='icon-round'><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>
+        </div>
+      </section>
+      <section class='copyright'>
+        <p>-ScratchOs © 2016. All Rights Reversed
+      </section>
+    </footer>
+  </body>
+</html>
