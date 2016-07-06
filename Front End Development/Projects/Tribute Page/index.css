@@ -1,0 +1,52 @@
+.main-wrapper {
+  background-color:#eee;
+  border-radius:5px;
+  margin:7%;
+  padding:7%;
+}
+.center {
+  text-align:center;
+}
+.caption{
+  padding-top:0.5em;
+}
+.image-wrapper {
+  background-color:white;
+  padding:1em;
+  border-radius:5px;
+  border:1px solid #ddd;
+  width:100%;
+ }
+img {
+  width:100%;
+}
+.footer {
+  width:100%;
+  text-align:center;
+}
+.footer p {
+  text-align:center;
+  width:70%;
+  border-top:1px solid #eee;
+  margin-left:15%;
+  padding-top:2%;
+}
+.cite {
+  color:gray
+}
+.cite:before {
+  content:'– ';
+  font-family:Monospace;
+  margin-top:-0.5em;
+}
+.timeline-wrapper {
+  padding:15%;
+  padding-top:2%;
+}
+.quote {
+  font-size:20px;
+}
+.link {
+  padding-top:1%;
+  font-size:25px;
+}
