@@ -35,7 +35,7 @@ img {
   color:gray
 }
 .cite:before {
-  content:'– ';
+  content:'--- ';
   font-family:Monospace;
   margin-top:-0.5em;
 }
