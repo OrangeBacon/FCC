@@ -1,0 +1,12 @@
+body {
+  font-family:'Roboto',sans-serif;
+  text-align:center;
+  color:white;
+  background-color:#222;
+  user-select:none;
+  font-size:30px;
+  cursor:default;
+}
+#temp {
+  cursor:pointer;
+}
